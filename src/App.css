@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  background: white; /* Цвет фона таблицы */
+  color: black; /* Цвет текста */
+  margin: auto; /* выравнивание */
+ }
+ td, th {
+  background: grey; /* Цвет фона ячеек */
+  padding: 5px; /* Поля вокруг текста */
+ }
+
+ .trend-area {
+   margin: auto;
+ }
+
+ .error-mes {
+   color: red;
+ }
