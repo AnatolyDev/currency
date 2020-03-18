@@ -31,6 +31,7 @@ const App = () => {
     async function getDataFromAPI(url) {
       try {
         const data = await axios.get(url);
+        setErrorMes(undefined);
 
         if (data.data && data.data.Valute && data.data.Valute.USD && data.data.Valute.USD.Value) {
           setUSDcur(data.data.Valute.USD.Value);
